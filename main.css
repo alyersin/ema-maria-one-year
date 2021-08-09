@@ -36,7 +36,7 @@ body {
         position: relative;
         width: 100%;
         margin: 0 auto;
-        top: -2vh;
+        top: -18vh;
     }
 }
 
@@ -49,8 +49,9 @@ body {
 @media (min-width: 768px) {
     .name {
         position: relative;
-        top: 5vh;
-        font-size: 4.75rem;
+        top: -10vh;
+        left: 18%;
+        font-size: 5.75rem;
         color: #FF1493;
         font-family: 'Great Vibes', cursive;
     }
@@ -85,7 +86,7 @@ h1 {
 @media (min-width: 768px) {
     h1 {
         position: relative;
-        top: 4vh;
+        top: -5vh;
         font-size: 2.5rem;
         color: #444349;
     }
@@ -105,7 +106,7 @@ h1 {
 @media (min-width: 768px) {
     .locatia {
         position: relative;
-        top: 5vh;
+        top: -5vh;
         font-size: 1.75rem;
     }
 }
@@ -123,8 +124,8 @@ img:hover {
 @media (min-width: 768px) {
     img {
         position: relative;
-        top: 25vh;
-        left: 35%;
+        top: 37vh;
+        left: 30%;
         width: 20%;
         font-size: 9.75rem;
         color: #FF69B4;
@@ -141,7 +142,7 @@ img:hover {
 @media (min-width: 768px) {
     .maps {
         position: relative;
-        top: 10vh;
+        top: -3vh;
         position: relative;
     }
 }
