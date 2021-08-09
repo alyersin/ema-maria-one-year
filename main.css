@@ -7,7 +7,6 @@
 }
 
 body {
-    min-height: 100vh;
     text-align: center;
     background: url('./Assets/background1.jpg') no-repeat 100% center;
     background-size: cover;
@@ -41,16 +40,15 @@ body {
 
 .name {
     font-size: 5.75rem;
-    color: #FF1493;
+    color: #FF69B4;
     font-family: 'Great Vibes', cursive;
 }
 
 @media (min-width: 768px) {
     .name {
         position: relative;
-        top: 25vh;
-        left: 15%;
-        font-size: 9.75rem;
+        top: 5vh;
+        font-size: 4.75rem;
         color: #FF69B4;
         font-family: 'Great Vibes', cursive;
     }
@@ -67,23 +65,23 @@ body {
 @media (min-width: 768px) {
     .poezie {
         position: relative;
-        top: -15vh;
+        top: 5vh;
         font-size: 1.75rem;
     }
 }
 
 h1 {
-    font-family: 'MonteCarlo', cursive;
+    font-family: 'Pacifico', cursive;
     font-weight: bold;
     font-size: 1.75rem;
-    color: #FF69B4;
+    color: #444349;
     padding-top: 12px;
 }
 
 @media (min-width: 768px) {
     h1 {
         position: relative;
-        top: -12vh;
+        top: 4vh;
         font-size: 2.5rem;
     }
 }
@@ -99,7 +97,7 @@ h1 {
 @media (min-width: 768px) {
     .locatia {
         position: relative;
-        top: -9vh;
+        top: 5vh;
         font-size: 1.75rem;
     }
 }
@@ -128,14 +126,14 @@ img:hover {
 }
 
 .maps {
-    color: green;
+    color: rgb(226, 65, 17);
 }
 
 @media (min-width: 768px) {
     .maps {
         position: relative;
-        top: -7vh;
+        top: 10vh;
         position: relative;
-        color: green;
+        color: rgb(226, 65, 17);
     }
 }
