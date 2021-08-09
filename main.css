@@ -63,6 +63,7 @@ body {
     font-size: 1.25rem;
     line-height: 1.7em;
     padding-top: 12px;
+    color: black;
 }
 
 @media (min-width: 768px) {
@@ -70,6 +71,7 @@ body {
         position: relative;
         top: 5vh;
         font-size: 1.75rem;
+        color: black;
     }
 }
 
