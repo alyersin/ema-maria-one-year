@@ -75,8 +75,8 @@ h1 {
     font-family: 'Pacifico', cursive;
     font-weight: bold;
     font-size: 1.75rem;
-    top: -7vh;
-    color: #444349;
+    top: -4vh;
+    color: rgb(15, 157, 161);
     padding-top: 12px;
 }
 
@@ -97,6 +97,7 @@ h1 {
     font-size: 1.5rem;
     text-decoration: none;
     padding-top: 12px;
+    color: rgb(15, 157, 161);
 }
 
 @media (min-width: 768px) {
@@ -131,7 +132,9 @@ img:hover {
 }
 
 .maps {
-    color: rgb(226, 65, 17);
+    color: rgb(15, 157, 161);
+    position: relative;
+    top: -5vh;
 }
 
 @media (min-width: 768px) {
