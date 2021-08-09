@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -7,24 +8,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes%7CMuli:400,700%7CLibre+Baskerville:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
     <title>Ema-Maria 1 Year</title>
 </head>
 
 <body>
 
-    <div class="hero-wrapper">
-        <img src="./Assets/pic.jfif" alt="" class="ema-maria">
+    <audio id="myAudio" autoplay loop>
+        <source src="./Assets/yt1s.com - PatStanley  The Lion Sleeps tonight.mp4">
+        </audio>
 
+    <script>
+        var aud = document.getElementById("myAudio");
 
+        function getVolume() {
+            alert(aud.volume);
+        }
 
+        function setHalfVolume() {
+            aud.volume = 0.5;
+        }
 
+        function setFullVolume() {
+            aud.volume = 1;
+        }
+    </script>
 
-
-
+    <div class="wrapper-one">
+        <h2 class="name">Ema-Maria</h2>
+        <img src="./Assets/WhatsApp Image 2021-08-08 at 02.08.21 (1).jpeg" alt="">
+        <p class="poezie">Iata! Un an a trecut <br> De cand pe lume am aparut. <br> Nasa mea imi pregateste <br> Un nou look! Haide, ghiceste! <br> Da! imi taie motul meu <br> Si imi rupte turta! Zau! <br> <br> Eu sper sa nu lipsiti <br> Si cu totii sa veniti!</p>
+        <h1>14 August 2021, ora 15:00</h1>
+        <p class="locatia">Restaurantul Forest M (Popas Padure Valu)</p>
+        <a class="maps" href="https://www.google.com/maps/place/Forest+M+Restaurant+(Popas+Padure+Valu)/@44.1654739,28.501831,15z/data=!4m8!3m7!1s0x0:0x64c2ee14747fa860!5m2!4m1!1i2!8m2!3d44.1654739!4d28.501831" title="Location" class="social-icon"><i class="fa fa-map-marker fa-spin" style="font-size:50px"  aria-hidden="true"></i></a></li>
     </div>
 
+</body>
 
-
+</html>
 
 
 </body>
