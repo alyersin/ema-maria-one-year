@@ -71,9 +71,11 @@ body {
 }
 
 h1 {
+    position: relative;
     font-family: 'Pacifico', cursive;
     font-weight: bold;
     font-size: 1.75rem;
+    top: -7vh;
     color: #444349;
     padding-top: 12px;
 }
@@ -87,6 +89,8 @@ h1 {
 }
 
 .locatia {
+    position: relative;
+    top: -5vh;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
     font-size: 1rem;
