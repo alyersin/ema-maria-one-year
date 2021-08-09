@@ -81,7 +81,7 @@ body {
 
 h1 {
     position: relative;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Lobster', cursive;
     font-weight: bold;
     font-size: 1.5rem;
     top: -7vh;
@@ -101,7 +101,7 @@ h1 {
 .locatia {
     position: relative;
     top: -8vh;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Lobster', cursive;
     font-weight: bold;
     font-size: 1.5rem;
     text-decoration: none;
@@ -152,6 +152,6 @@ img:hover {
 @media (min-width: 768px) {
     .maps {
         position: relative;
-        top: -3vh;
+        top: 0vh;
     }
 }
