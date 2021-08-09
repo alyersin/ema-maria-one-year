@@ -76,8 +76,9 @@ h1 {
     font-weight: bold;
     font-size: 1.75rem;
     top: -4vh;
-    color: rgb(15, 157, 161);
+    color: #444349;
     padding-top: 12px;
+    font-weight: normal;
 }
 
 @media (min-width: 768px) {
@@ -85,7 +86,8 @@ h1 {
         position: relative;
         top: 4vh;
         font-size: 2.5rem;
-        color: rgb(15, 157, 161);
+        color: #444349;
+        font-weight: normal;
     }
 }
 
@@ -97,7 +99,7 @@ h1 {
     font-size: 1.5rem;
     text-decoration: none;
     padding-top: 12px;
-    color: rgb(15, 157, 161);
+    color: #444349;
 }
 
 @media (min-width: 768px) {
@@ -132,7 +134,7 @@ img:hover {
 }
 
 .maps {
-    color: rgb(15, 157, 161);
+    color: #444349;
     position: relative;
     top: -5vh;
 }
@@ -142,6 +144,6 @@ img:hover {
         position: relative;
         top: 10vh;
         position: relative;
-        color: rgb(226, 65, 17);
+        color: #444349;
     }
 }
