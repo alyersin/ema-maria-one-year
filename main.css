@@ -134,7 +134,6 @@ img:hover {
 }
 
 .maps {
-    color: #444349;
     position: relative;
     top: -5vh;
 }
@@ -144,6 +143,5 @@ img:hover {
         position: relative;
         top: 10vh;
         position: relative;
-        color: #444349;
     }
 }
