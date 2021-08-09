@@ -85,6 +85,7 @@ h1 {
         position: relative;
         top: 4vh;
         font-size: 2.5rem;
+        color: rgb(15, 157, 161);
     }
 }
 
@@ -93,7 +94,7 @@ h1 {
     top: -5vh;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;
     padding-top: 12px;
 }
